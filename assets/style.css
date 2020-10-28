@@ -10,12 +10,38 @@ body {
     font-family: sans-serif;
 }
 
-/* #FOLD */
+/* #WRAPPER */
+#wrapper {
+    height: 100vh;
+    background-color: #e2e2e2;
+}
+
+/* HEADER */
 /* <1-fold */
+header {
+    height: 130px;
+    background-color: #fff;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
 
-/* .FOLD */
+/* .HEADER-LEFT */
 /* #2-fold */
+.header-left {
+    width: 100px;
+    height: 100%;
+    background-color: red;
+}
+/* #/2-fold END TITLE */
 
+/* .HEADER-RIGHT */
+/* #2-fold */
+.header-right {
+    width: 100px;
+    height: 100%;
+    background-color: red;
+}
 /* #/2-fold END TITLE */
 
 /* </1-fold END */
